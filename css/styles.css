@@ -44,6 +44,12 @@ main {
     font-size: 1.25em;
 }
 
+.action {
+    font-size: 1.35em;
+    color: #666600;
+    font-weight: bold;
+}
+
 #weights, #cardio, #training {
     width: 29%;
     float: left;
@@ -64,6 +70,15 @@ main {
 
 #exercises dd {
     padding: 0.5% 1% 2% 0;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact a {
+    color: #666600;
+    text-decoration: none;
 }
 
 footer p {
