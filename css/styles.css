@@ -72,6 +72,12 @@ main {
     padding: 0.5% 1% 2% 0;
 }
 
+.external-link {
+    color: #666600;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 #contact {
     text-align: center;
 }
