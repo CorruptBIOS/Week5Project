@@ -40,17 +40,19 @@ nav ul {
 
 /* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
 nav li {
-	background-color: #9D9D93; 
-	border-radius: 2em; 
-	list-style-type: none; 
-	margin: 0.3em; 
-	padding: 0.4em;  
+	display: inline-block;
+    font-size: 1.5em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;  
 }
 
 /* Style changes navigation link text color to white and removes the underline */
 nav li a { 
-	color: #FFFFFF; 
-	text-decoration: none; 
+	display: block;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 1em;
+    text-decoration: none;
 }
 
 /* Style displays the mobile class */
