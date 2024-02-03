@@ -55,14 +55,10 @@ nav li a {
 
 /* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
 main {
-	display: block;
-	font-family: Verdana, Arial, sans-serif;
-	font-size: 1em;
-	margin-top: 0.5em;
-	padding: 1em;
-	border-radius: 2em 0 2em 0;
-	background-color: #FFFFFF;
-	opacity: 0.85;
+	clear: left;
+    background-color: #fff;
+    padding: 2%;
+    font-size: 1.25em;
 }
 
 /* Style for anchor elements within the main element*/
