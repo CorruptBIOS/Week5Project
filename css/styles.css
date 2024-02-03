@@ -1,5 +1,11 @@
+body, header, nav, main, footer, h1, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
-    background-color: #ccc;
+    background-color: #000;
 }
 
 img {
@@ -26,7 +32,9 @@ nav ul {
 
 nav li {
     display: inline-block;
-    font-size: 1.75em;
+    font-size: 1.5em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
 }
 
 nav li a {
