@@ -1,3 +1,118 @@
-<h1>Forbidden</h1>
+<!DOCTYPE html>
+<!-- This website template was created by Kaleb Heishman-->
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/styles.css">
+    <title>About us</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Forward Fitness Club has state-of-the-art fitness equipment and provides personal training.">
+	<script src="scripts/myfunctions.js" type="text/javascript"></script>
+</head>
 
-<h4>You don't have permission to access this resource.</h4>
+<body>
+
+	<div id="container">
+
+	<!--This header is for the title or logo of the website.-->
+	<header>
+		<a href="index.html"><img src="images/ffc_logo.png" alt="Forward Fitness Club logo"></a>
+	</header>
+	<!--The nav is used to have hyperlinks to other websites-->
+	
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About us</a></li>
+			<li><a href="class.html">Classes</a></li>
+			<li><a href="nutrition.html">Nutrition</a></li>
+			<li><a href="contact.html">Contact us</a></li>
+		</ul>
+	</nav>
+	
+	<!--The main area is used for the center stage items of interest-->
+	<main>
+	
+		<div class="video">
+		<video poster="images/homeBanner.jpg">
+			<source src="media/ffc_vid.mp4" type="video/mp4">
+			<source src="media/ffc_vid.ogg" type="video/ogg">
+			<source src="media/ffc_vid.webm" type="video/webm">
+			<p>Your browser does not support the video tag</p>
+		</video>
+		</div>
+		
+		<section>
+		<h1>Weights</h1>
+		<img class="equip" src="images/equipment1.jpg" alt="Weight Fitness Equipment">
+		<p>Our facility includes a weight training area with several weight options. Build lean muscle with weights and improve your core with weight training.</p>
+		<ul class="items">
+			<li>Bumbbells</li>
+			<li>Kettle bells</li>
+			<li>Barbells</li>
+		</ul>
+		</section>
+		
+		<section>
+		<h1>Cardios</h1>
+		<img class="equip" src="images/equipment2.jpg" alt="Cardio Fitness Equipment">
+		<p>Burn fat through cardio workouts. If you need to lose 20 lbs or more, include at least 30 minutes of cardio each day. We have several equipment choices for your workout.</p>
+		<ul class="items">
+			<li>Treadmills</li>
+			<li>Elliptical Machines</li>
+			<li>Exercise Bikes</li>
+		</ul>
+		</section>
+		
+		<section>
+		<h1>Personnal Training</h1>
+		<img class="equip" src="images/equipment3.jpg" alt="Personnal Training">
+		<p>Our certified personal trainers work with you one on one to help you obtain your fitness goals. Our personal trainers keep you motivated and push you farther than you would push yourself. When you feel like you cannot do one more rep, they tell you that you can. Personal training has many benefits.</p>
+		<ul class="items">
+			<li>Accountability</li>
+			<li>Personalized Program</li>
+			<li>Conststent Support and Motivation</li>
+		</ul>
+		</section>
+		
+		<section class="tablet">
+		
+		<h1>Common Exercises</h1>
+		<p>The following are common exercises that we encourage our clients to as part of their daily exercise routine.</p>
+        <dl>
+            <dt>Burpee</dt>
+            <dd>Burpees are a great, full body exercise to increase your strength and endurance. Begin in a standing position, drop into a squat and extend your hands forward, kick your feet back and then forward again quickly, and then jump up from a squattted position.</br>
+			<button onclick="burpees()">see example</button>
+			</dd>
+            
+            <dt>Plank</dt>
+            <dd>Planks build your core strength. To perform a plank, get in a push up position and rest your forearms on the floor. Hold the position as long as you can.</br>
+			<button onclick="plank()">see example</button>
+			</dd>
+            
+            <dt>Mountain Climber</dt>
+            <dd>Mountain Climbers are a good cardio exercise. Place your hands on the floor in a push up position, then bring on knee up to your waist and then switch to another knee as quickly as you can (as though you are climbing a mountain)</br>
+			<button onclick="mtnClimber()">see example</button>
+			</dd>
+        </dl>
+        
+        <p>For more information about how to stay active, visit the <a href="https://www.hhs.gov/fitness/be-active/index.html" target="_blank" class="external-link">U.S. Department of Health and Human Servies</a>.</p>
+        
+		</section>
+		
+	</main>
+	
+	<!--The footer is used for website footer content...-->
+	<footer>
+	
+		<div id="copyright">
+			<p>&copy;Copyright 2015. All Rights Reserved.<br>
+			<a href="malito.forwardfitness@club.net">forwardfitness@club.net</a></p>
+		</div>
+		
+	</footer>
+	
+	</div>
+	
+</body>
+</html>
