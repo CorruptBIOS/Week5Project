@@ -153,16 +153,6 @@ main {
 	overflow: auto;
 }
 
-/* Style specifies to hide the mobile class */
-.mobile {
-	display: none;
-}
-
-/* Style specifies to display the desktop class */
-.desktop {
-	display: inline;
-}
-
 /* Style specifies a display, float, and padding for the equip class */
 .equip {
 	display: inline;
@@ -367,22 +357,8 @@ nav li a {
 	display: block;
     color: #fff;
     text-align: center;
-    padding: 0.5em 1em;
+    padding: 0.7em;
     text-decoration: none;
-}
-
-/* Style rules for pseudo-classes */ 
-nav li a:link {
-	color: #FFFFFF;	
-}
-
-nav li a:visited {
-	color: #CCCCFF;	
-}
-
-nav li a:hover {
-	color: #9D9D93;
-	font-style: italic;
 }
 
 /* Style specifies border, box shadow, and margins for the main element */
@@ -457,28 +433,4 @@ main h2 {
 /* Style for main article h2 element */
 main article h2 {
 	color: #000000;
-}
-
-/* Style for table element */
-table {
-	background-color: #FFFFFF;
-	width: 85%;
-}
-
-/* Style for caption element */
-caption {
-	color: #FFFFFF;
-}
-
-/* Style rule for form element */
-form {
-	background-color: #FFFFFF;
-	padding: 1em;
-}
-
-/* Style rule for paragraph with form element */
-form p {
-	color: #000000;
-}
-
 }
