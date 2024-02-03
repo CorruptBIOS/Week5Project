@@ -115,29 +115,6 @@ label {
 	display: block;
 }
 
-/* Style rule for unordered list within a form */
-form ul {
-	list-style-type: none;
-}
-
-/* Style rule for chkbx class */
-.chkbx {
-	display: inline-block;
-}
-
-/* Style rule for the video class */
-.video {
-	padding: 1em;
-	text-align: center;
-}
-
-/* Style rule for video element */
-video {
-	border: 0.5em ridge #FFFFFF;
-	height: auto;
-	max-width: 100%;
-}
-
 /* Style rule for the copyright div */
 #copyright {
 	float: left;
@@ -162,16 +139,10 @@ video {
 
 /* Style specifies a horizontal display for navigation links */
 nav li {
-	display: inline;
-	float: left;
-	margin-left: 1%;
-	margin-right: 1%;
-	padding-left: 0;
-	padding-right: 0;
-	width: 18%;
-	white-space: nowrap;
-	border-radius: 0;
-	background-color: transparent;
+	display: inline-block;
+    font-size: 1.5em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
 }
 
 /* Style specifies clear and top margin properties for the main element */
