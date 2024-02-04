@@ -56,6 +56,7 @@ nav li a {
 /* Style for the main specifies a block display, text properties, margins, padding, rounded corners, and borders  */
 main {
 	clear: left;
+	font-family: Verdana, Arial, sans-serif;
     background-color: #fff;
     padding: 2%;
     font-size: 1.25em;
