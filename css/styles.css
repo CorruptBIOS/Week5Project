@@ -365,6 +365,7 @@ main {
 
 /* Style specifies left and right padding for paragraph elements within the main element */
 main p {
+	font-family: Verdana, Arial, sans-serif;
 	color: #FFFFFF;
 	margin-left: auto;
 	margin-right: auto;
