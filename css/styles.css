@@ -378,6 +378,10 @@ h1 {
 	color: #FFFFFF;
 }
 
+h4 {
+	color: #FFFFFF;
+}
+
 /* Style applies height and opacity to images within figure element */
 figure img {
 	height: 15em;
