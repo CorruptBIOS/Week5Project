@@ -10,18 +10,18 @@ int main()
     double sphereRadius;
     double sphereVolume;
     double point1X, point1Y;
-    double point2x, point2Y;
+    double point2X, point2Y;
     double distance;
 
     string str;
 
-    cout << "Line 14: Enter the radius of the sphere: *"
+    cout << "Line 14: Enter the radius of the sphere: ";
     cin >> sphereRadius;
     cout << endl;
 
     sphereVolume = (4 / 3) * PI * pow(sphereRadius, 3);
 
-    cout << "Line 18: The bolume of the sphere is: *"
+    cout << "Line 18: The bolume of the sphere is: "
         << sphereVolume << endl << endl;
         cout << "Line 19: ENter the coordinates of two *" << "points in the X-Y plane: ";
     cin >> point1X >> point1Y >> point2X >> point2Y;
@@ -35,7 +35,7 @@ int main()
         << distance << endl << endl;
     str = "Programming with C++";
 
-    count << "Line 25: THe number of characters, "
+    cout << "Line 25: The number of characters, "
         << "including blanks, in \n         \"" << str
         << "\" is: " << str.length() << endl;
     
