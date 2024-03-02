@@ -27,11 +27,11 @@ cout << endl;
 
 
 // Calculate Area
-double radius = diameter / 2.0;
+double radius = diameter / 2;
 double pizzaArea = pi * radius * radius;
 
 // Output Area (2 Decimal Places)
-cout << fName << " the area of your pizza is " << setprecision(5) << pizzaArea  << fixed;
+cout << fName << " the area of your pizza is " << setprecision(2) << fixed << pizzaArea ;
 
 return 0;
 }
