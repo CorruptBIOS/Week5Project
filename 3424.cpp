@@ -1,43 +1,37 @@
+/*
+Everyone likes Pizza, but people usually don’t think it places past two decimal places. Let’s do a program that asks for a diameter of a pizza and does the calculation to a greater level of precision (more accurate lower decimal place) but only shows the answer to the user to 2 decimal places.
+
+Write a program that asks the user their name and the diameter or the pizza they want, calculate the area of the pizza using PI to four decimal places (3.1415) but show the area of their Pizza to the user to two decimal places by using setprecision and fixed from chapter 3 on the output.
+*/
+
 #include <iostream>
-#include <cmath>
-#include <string>
+#include <iomanip>
+
 using namespace std;
 
-const double PI = 3.1416;
+int main() {
+// Pi Variable
+double pi = 3.1415;
 
-int main()
-{
-    double sphereRadius;
-    double sphereVolume;
-    double point1X, point1Y;
-    double point2X, point2Y;
-    double distance;
+// Ask Name
+string fName;
+cout << "What is your name: "; 
+cin >> fName;
+cout << endl;
 
-    string str;
+// Diameter of Pizza
+double diameter;
+cout << "What is the diameter of your pizza?: ";
+cin >> diameter;
+cout << endl;
 
-    cout << "Line 14: Enter the radius of the sphere: ";
-    cin >> sphereRadius;
-    cout << endl;
 
-    sphereVolume = (4 / 3) * PI * pow(sphereRadius, 3);
+// Calculate Area
+double radius = diameter / 2.0;
+double pizzaArea = pi * radius * radius;
 
-    cout << "Line 18: The bolume of the sphere is: "
-        << sphereVolume << endl << endl;
-        cout << "Line 19: ENter the coordinates of two *" << "points in the X-Y plane: ";
-    cin >> point1X >> point1Y >> point2X >> point2Y;
-    cout << endl;
+// Output Area (2 Decimal Places)
+cout << fName << " The area of your pizza is " << setprecision(4) << pizzaArea  << fixed;
 
-    distance = sqrt(pow(point2X - point1X, 2) + pow(point2Y - point1Y, 2));
-    
-    cout << "Line 23: The distance between the point "
-        << "(" << point1X << ", " << point1Y << ") and "
-        << "(" << point2X << ", " << point2Y << ") is: "
-        << distance << endl << endl;
-    str = "Programming with C++";
-
-    cout << "Line 25: The number of characters, "
-        << "including blanks, in \n         \"" << str
-        << "\" is: " << str.length() << endl;
-    
-    return 0;
+return 0;
 }
