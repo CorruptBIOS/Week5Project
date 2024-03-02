@@ -21,7 +21,7 @@ cout << endl;
 
 // Diameter of Pizza
 double diameter;
-cout << "What is the diameter of your pizza?: ";
+cout << "What is the diameter of the pizza?: ";
 cin >> diameter;
 cout << endl;
 
@@ -31,7 +31,7 @@ double radius = diameter / 2.0;
 double pizzaArea = pi * radius * radius;
 
 // Output Area (2 Decimal Places)
-cout << fName << " The area of your pizza is " << setprecision(4) << pizzaArea  << fixed;
+cout << fName << " the area of your pizza is " << setprecision(5) << pizzaArea  << fixed;
 
 return 0;
 }
